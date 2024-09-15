@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub Repo](https://github.com/lucksei/front-end-mentor-interactive-comments-section)
+- Live Site URL: [GitHub Site](https://lucksei.github.io/front-end-mentor-interactive-comments-section/)
 
 ## My process
 
@@ -132,7 +132,7 @@ TODO add resources later
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@lucksei](https://www.frontendmentor.io/profile/lucksei)
 
 ## Acknowledgments
 
