@@ -1,0 +1,48 @@
+<div class="comment" data-commentid="">
+    <div class="username-container">
+        <img src="#" alt="#" class="user-icon" data-id="user-icon">
+        <a class="username" data-id="username">J. P. P. Biggs</a>
+        <span class="created-at" data-id="created-at">1 month ago</span>
+    </div>
+    <div class="content">
+        <a class="reply-to" data-id="reply-to"></a>
+        <span class="" data-id="text-content">
+            <!-- Content will be added here -->
+        </span>
+        <!-- Edit comment form will be activated or inactivated -->
+        <form class="edit-comment hidden" action="#" method="post" data-id="edit-comment" data-reply-to="#">
+            <div class="textarea" name="edit-comment" data-id="edit-comment-textarea">
+                <span class="reply-to" data-id="reply-to" contenteditable="false"></span>
+                <p class="text-content" data-id="text-content" contenteditable="true">test edit</p>
+            </div>
+            <button type="button" class="update-button" data-id="update-button">
+                <span>UPDATE</span>
+            </button>
+        </form>
+    </div>
+
+
+    <div class="score">
+        <button type="button" class="upvote" data-id="upvote-button" data-voted="false">
+            <img src="./images/icon-plus.svg" alt="">
+        </button>
+        <span class="score-count" data-id="score-count">12</span>
+        <button type="button" class="downvote" data-id="downvote-button" data-voted="false">
+            <img src="./images/icon-minus.svg" alt="">
+        </button>
+    </div>
+    <div class="button-container">
+        <button class="reply-button" type="button" data-id="reply-button" data-active="true">
+            <img src="./images/icon-reply.svg">
+            <span>Reply</span>
+        </button>
+        <button type="button" class="delete-button hidden" data-id="delete-button" data-active="true">
+            <img src="./images/icon-delete.svg" alt="">
+            <span>Delete</span>
+        </button>
+        <button type="button" class="edit-button hidden" data-id="edit-button" data-active="true">
+            <img src="./images/icon-edit.svg" alt="">
+            <span>Edit</span>
+        </button>
+    </div>
+</div>
